@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+}
+
+a:link {
+color: orangered;
+}
+
+a:visited {
+    color: violet;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:focus {
+    outline: 3px solid olivedrab;
+}
+
+a:active {
+    color: salmon;
+}

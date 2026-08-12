@@ -1,0 +1,18 @@
+restorecon: SELinux: Could not get canonical path for /home/aldhamsa/.mozilla/firefox/*/gmp-widevinecdm/* restorecon: No such file or directory.
+Safe Browsing server returned a 400 during update:request url = https://safebrowsing.googleapis.com/v5/hashLists:batchGet?key=AIzaSyBPGXa4AYD4FC3HJK7LnIKxm4fDusVuuco, payload = 
+Warning: Unknown input_id: -1 for input: surfacemap_x
+Warning: Unknown input_id: -1 for input: surfacemap_x
+Warning: Unknown input_id: -1 for input: surfacemap_x
+Warning: Unknown input_id: -1 for input: surfacemap_x
+Warning: Unknown input_id: -1 for input: surfacemap_x
+Warning: Unknown input_id: -1 for input: surfacemap_x
+Warning: Unknown input_id: -1 for input: surfacemap_x
+Warning: Unknown input_id: -1 for input: surfacemap_x
+Warning: Unknown input_id: -1 for input: surfacemap_x
+Warning: Unknown input_id: -1 for input: surfacemap_x
+Warning: Unknown input_id: -1 for input: surfacemap_x
+Warning: Unknown input_id: -1 for input: surfacemap_x
+set device 'ELAN2514:00 04F3:23E3 Stylus (Eraser)' to mode: screen
+set device 'ELAN2514:00 04F3:23E3 Stylus' to mode: screen
+set device 'Wayland Touch' to mode: disabled
+set device 'Wayland Pointer' to mode: disabled

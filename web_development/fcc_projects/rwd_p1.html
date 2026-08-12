@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+        <head>
+        <meta charset="UTF-8" />
+        <title>Survey Form</title>
+    </head>
+
+    <body>
+<h1 id="title">
+ استفتاء زيارة منگوليا تاون
+</h1>
+<p id="description">
+    الهدف من هذه الصفحة معرفة رضا الزوار عن خدمات وفعاليات 
+    جمهورية منگوليا تاون الديموقراطية
+</p>
+<figure>
+    <img src="images/president.jpg"
+    width="250"
+    height="400">
+    <figcaption>
+        صورة للرئيس ملهم الأسطورة في كامل الأناقة والشياكة يوم العيد
+    </figcaption>
+</figure>
+<form id="survey-form" action=" ">
+
+    <fieldset>
+        <legend>معلموماتك الشخصية الي غير مهمة اساسا</legend>
+        <ul>
+    <li><div>
+ <label id="name-label">
+        الاسم الكريم:
+    <input id="name" type="text" required placeholder="مصطفى فسي">
+    </label>
+    </div>
+    </li>
+   
+    
+  <li><div>
+      <label id="email-label">
+         الايميل الخاص فيك:
+  <input id="email" type="email" required placeholder="mangoli@hotmal.com">
+    </label>
+  </div></li>
+  
+<li><div>
+        <label id="number-label">
+                     عمرك:
+         <input id="number" type="number" max="100" min="0" placeholder="خمسة وتحسين سنة" size="20">
+    </label>
+</div></li> 
+</fieldset>
+   
+<fieldset>
+    <legend>شاركنا تجربتك الي اكيد راح نحطه بعين الاعتبار</legend>
+    <ol>
+<li><label>
+    شو عم تحب تاكول؟
+<select id="dropdown">
+<option selected>سوكسيه</option>
+<option> دجاج مكسيكانو</option>
+<option>بوتيته</option>
+
+</select>
+</label></li>
+
+<li><div><label>
+    هل استمتعت بوقتك في منگوليا تاون؟
+</label></div></li>
+
+
+<div><input type="radio" name="yes-no" value='1'>
+<label>اكيد طبعا</label></div>
+
+<div><input type="radio" name="yes-no" value='2'>
+<label> نعم جدا استمتعت</label></div>
+
+<div><input type="radio" name="yes-no" value='3'>
+<label> يا زلمة ما يحتاج تسأل منگوليا تاون أحسن دولة بالعالم</label></div>
+
+<li><label>
+    ايش هي اكثر فعاليات عجبتك في منگوليا تاون؟
+</label></li>
+
+<div>
+    <input type="checkbox" checked value="1">
+    <label> زيارة محل اسماك محمود فسي</label>
+</div>
+
+<div>
+    <input type="checkbox" checked value="2">
+    <label>شرب الشاي وعصير الليمون في الجلسات الراقية</label>
+</div>
+
+<div>
+    <input type="checkbox" checked value="3">
+    <label> زيارة الملاهي</label>
+</div>
+
+<div>
+    <input type="checkbox" checked value="4">
+    <label>مقابلة مجنون الحارة</label>
+</div>
+
+<div>
+    <input type="checkbox" checked value="6">
+    <label>الهروب من الشحات الي يقول عطيني خمسة</label>
+</div>
+    </ol></fieldset>
+
+<div> <label for="comments">عندك اقتراحات علشان نخلي منگوليا تاون مكان احسن؟</label></div>
+        <textarea cols="50" rows="10" name="comments" id="comments"
+        disabled>
+انت منگولي ولا عم تتمگنل؟ فاكر حالك الساحر سكلمبو مشان يكون عندك اقتراحات مهمة علشان بس تفكر تكتبها؟ منگوليا تاون احسن دولة بالعالم وما بدنا نستنى واحد شحات فقير مثلك علشان يحسنها, اذا مو عاجبتك البلد كول خرا وروح تزحلق على صلعة ابوك
+        </textarea>
+
+<div>
+<button  id ='submit' type="submit">ارسل الاستفتاء (ماعندنا سيرفرات اصلا علشان نشوف رايك)</button>
+</div>
+
+</form>
+    </body>
+</html>
