@@ -50,8 +50,8 @@ h2 {
   border: 5px solid #9b1313;
   background-color: #cd1c18;
   border-radius: 50%;
-  max-width: max-content;
-  max-height: max-content;
+  width: max-content;
+  height: max-content;
   padding: 20px;
   color: #ffffe3;
 }
@@ -75,7 +75,7 @@ h2 {
   background-color: #272757;
   padding: 20px;
   border: 10px solid white;
-  max-width: 750px;
+  width: 750px;
   height: auto;
   aspect-ratio: 1 / 1.14;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -89,7 +89,7 @@ legend {
   color: #ffffe3;
 }
 h3 {
-  max-width: 400px;
+  width: 400px;
   padding: 10px;
   font-size: xxx-large;
   border: 7px solid #8686ac;
@@ -101,8 +101,8 @@ h3 {
 }
 img {
   position: relative;
-  max-width: 300px;
-  max-height: 350px;
+  width: 300px;
+  height: 350px;
   object-fit: cover;
   align-self: center;
 }
@@ -117,8 +117,8 @@ legend {
 }
 
 fieldset {
-  max-width: 400px;
-  max-height: 250px;
+  width: 400px;
+  height: 250px;
   margin: 20px;
   border: 4px solid #c05800;
   background-color: #fdfbd4;
@@ -131,7 +131,6 @@ p {
   font-size: 20px;
   text-align: justify;
   padding: 5px;
-  overflow-wrap: break-word;
 }
 .space {
   white-space: pre-line;
