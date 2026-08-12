@@ -131,8 +131,7 @@ p {
   font-size: 20px;
   text-align: justify;
   padding: 5px;
-  width: 100%;
-  height: auot;
+  overflow-wrap: break-word;
 }
 .space {
   white-space: pre-line;
