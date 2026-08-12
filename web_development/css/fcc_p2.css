@@ -131,6 +131,8 @@ p {
   font-size: 20px;
   text-align: justify;
   padding: 5px;
+  width: 100%;
+  height: auot;
 }
 .space {
   white-space: pre-line;
