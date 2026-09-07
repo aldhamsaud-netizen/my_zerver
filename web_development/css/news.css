@@ -1,0 +1,196 @@
+body {
+  background-image: url(../../media/news_bg.jpg);
+  background-size: auto;
+}
+header {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2%;
+}
+header * {
+    height: 100%;
+    width: auto;
+}
+header h1 {
+    font-family: font_1_B;
+    color: #A50021;
+    height: auto;
+    margin-bottom: 0;
+    font-size:6vw;
+}
+header h2 {
+    font-family: font_1;
+    color: #58111A;
+    height: auto;
+    margin-top: 0;
+    font-size: 3vw;
+    text-align: center;
+}
+header img {
+    border-radius: 20%;
+    width:27vw;
+}
+header hr {
+  border: none;
+  background-color: #22242a;
+  height: 5px;
+}
+
+header .flex {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  gap: 20px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    
+}
+.content h1,h2{
+  font-family: font_4;
+    text-align: center;
+    margin: 0;
+    line-height: 200%;
+
+    
+}
+.content h1 {
+  font-size: 7vw;
+}
+.content h2 {
+  font-size: 2vw;
+}
+.ad {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ad h1 {
+  text-align: center;
+  border:3px dashed #22242a;
+  font-size: 2.5vw;
+}
+
+.content > ul {
+  padding: 5%;
+  font-family: font_4;
+  font-size: 3vw;
+  list-style: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content > ul li {
+  border:6px groove #22242a;
+  background-color: #58111A;
+  color: white;
+  margin: 10%;
+  padding: 2%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  filter: sepia();
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid {
+  width: 60vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 70px;
+    align-items:normal;
+    padding: 5% 20%;
+}
+
+.article figure {
+  width: 27vw;
+  height: auto;
+  max-height: 400px;
+  display: block; 
+    object-fit: cover;
+    border: 10px groove #A50021;
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+}
+p,
+.grid ul {
+  width: 40vw;
+    text-align: justify;
+    font-family: font_3;
+    font-size: 3vw;
+}
+figcaption {
+  font-family: font_3;
+  font-size: 2vw;
+}
+
+.return-btn {
+  font-size: 2vw;
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  align-self: center;
+}
+.article {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.text_span {
+  grid-row: span 2;
+}
+
+@font-face {
+  font-family: "font_1";
+  src: url("../../fonts/ArefRuqaa-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "font_1_B";
+  src: url("../../fonts/ArefRuqaa-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "font_2";
+  src: url("../../fonts/Rakkas-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "font_3";
+  src: url("../../fonts/Alyamama-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "font_4";
+  src: url("../../fonts/AmiriQuran-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
